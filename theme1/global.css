@@ -667,3 +667,78 @@ display: inline-block;
 height: 10px;
 min-width: 1px;
 }
+
+
+@media (max-width: 768px) {
+	#sidebar {
+			position: static;
+			width: 100%;
+			height: auto;
+			font-size: 16px;
+	}
+
+	#profile {
+			display: none;
+	}
+
+	#profile img {
+			opacity: 1;
+	}
+
+	.foreground, .background {
+			position: static;
+			width: 100%;
+			height: auto;
+	}
+
+	#sidebar h1 {
+			float: none;
+			padding: 20px 0;
+			width: auto;
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+			color: #fff;
+	}
+
+	#nav {
+			padding: 0;
+			float: none;
+	}
+
+	#nav ul {
+			padding-left: 10px;
+	}
+
+	#nav li {
+			text-align: center;
+	}
+
+	#nav li a {
+			display: block;
+			padding: 10px;
+	}
+
+	#control {
+			display: none;
+	}
+
+	#control li {
+			display: inline-block;
+			width: auto;
+			margin: 5px;
+	}
+
+	#marker{
+		display: none;
+	}
+
+	#main {
+	padding: 0;
+	min-width: auto;
+	min-height: auto;
+	overflow: auto;
+	position: relative;
+}
+}
+
