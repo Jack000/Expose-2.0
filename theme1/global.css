@@ -671,69 +671,66 @@ min-width: 1px;
 
 @media (max-width: 768px) {
 	#sidebar {
-			position: static;
-			width: 100%;
-			height: auto;
-			font-size: 16px;
-	}
+		position: static;
+		width: 100%;
+		height: auto;
+		font-size: 16px;
+}
 
-	#profile {
-			display: none;
-	}
+#profile {
+		display: block;
+		float: none;
+		margin: 20px auto 0;
+}
 
-	#profile img {
-			opacity: 1;
-	}
+#profile img {
+		opacity: 1;
+}
 
-	.foreground, .background {
-			position: static;
-			width: 100%;
-			height: auto;
-	}
+.foreground, .background {
+		position: static;
+		width: 100%;
+		height: auto;
+}
 
-	#sidebar h1 {
-			float: none;
-			padding: 20px 0;
-			width: auto;
-			text-align: center;
-			font-size: 20px;
-			font-weight: bold;
-			color: #fff;
-	}
+#sidebar h1 {
+		float: none;
+		padding: 20px 0;
+		width: auto;
+		text-align: center;
+		font-size: 20px;
+		font-weight: bold;
+		color: #fff;
+}
 
-	#nav {
-			padding: 0;
-			float: none;
-	}
+#nav-wrapper {
+	width: 100vw;
+	width: 100vw;
+		overflow-y: hidden;
+		overflow-x: auto;
+}
 
-	#nav ul {
-			padding-left: 10px;
-	}
+#nav {
+		padding: 0 0 10px 0;
+		float: none;
+		text-align: center;
+}
 
-	#nav li {
-			text-align: center;
-	}
+#nav li {
+		text-align: center;
+		display: inline-block;
+}
 
-	#nav li a {
-			display: block;
-			padding: 10px;
-	}
+#nav li a {
+		display: block;
+		padding: 10px;
+}
 
-	#control {
-			display: none;
-	}
-
-	#control li {
-			display: inline-block;
-			width: auto;
-			margin: 5px;
-	}
-
-	#marker{
+#control, #marker {
 		display: none;
-	}
+}
 
-	#main {
+#main {
 	padding: 0;
 	min-width: auto;
 	min-height: auto;
